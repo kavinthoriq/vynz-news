@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Vynz News - Portal berita terkini seputar Teknologi, Startup, AI, dan Web Development. Edukasi digital terpercaya untuk profesional modern.">
+    <title>Vynz News | Portal Berita Teknologi & Bisnis Modern</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand"><span class="brand-icon">VN</span> Vynz News.</a>
+
+            <div class="nav-links">
+                <a href="index.html" class="active">Beranda</a>
+                <a href="kategori.html">Kategori</a>
+                <a href="galeri.html">Galeri</a>
+                <a href="tentang.html">Tentang Kami</a>
+                <a href="kontak.html">Kontak</a>
+            </div>
+
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <!-- Icon is injected via JS -->
+                </button>
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Headline) -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Main Headline -->
+                <article class="hero-main">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80"
+                        alt="Masa Depan AI">
+                    <div class="hero-overlay">
+                        <div class="hero-content">
+                            <span class="news-category">Artificial Intelligence</span>
+                            <h2><a href="detail-berita-1.html">Masa Depan AI dalam Pengembangan Web: Otomatisasi dan
+                                    Kreativitas</a></h2>
+                            <p>Kecerdasan buatan kini tidak hanya sekadar tools pendukung, melainkan telah menjadi inti
+                                dari inovasi pengembangan aplikasi modern.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Side Highlights -->
+                <div class="hero-side">
+                    <article class="hero-side-item">
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=600&q=80"
+                            alt="Startup Asia">
+                        <div class="hero-overlay">
+                            <div class="hero-content">
+                                <span class="news-category" style="font-size: 0.65rem; padding: 0.2rem 0.5rem;">Bisnis &
+                                    Startup</span>
+                                <h3><a href="detail-berita-2.html">Strategi Startup Melewati Tech Winter di Asia
+                                        Tenggara</a></h3>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="hero-side-item">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80"
+                            alt="Web Dev Framework">
+                        <div class="hero-overlay">
+                            <div class="hero-content">
+                                <span class="news-category" style="font-size: 0.65rem; padding: 0.2rem 0.5rem;">Web
+                                    Development</span>
+                                <h3><a href="detail-berita-3.html">Framework JavaScript Terbaik untuk Skalabilitas
+                                        Enterprise di 2026</a></h3>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlight / Trending News -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Berita Terkini</h2>
+
+            <div class="news-grid-3">
+                <!-- Card 1 -->
+                <article class="news-card">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80"
+                        alt="Pendidikan Digital" class="news-card-img">
+                    <div class="news-card-content">
+                        <div class="news-meta">
+                            <span class="news-category">Edukasi</span>
+                            <span>12 Oktober 2023</span>
+                        </div>
+                        <h3 class="news-card-title"><a href="detail-berita-4.html">Transformasi Digital di Sektor
+                                Pendidikan: Membangun Kelas Tanpa Batas</a></h3>
+                        <p class="news-card-excerpt">Adaptasi teknologi digital di ruang kelas kini menjadi standar baru
+                            yang membuka akses pendidikan berkualitas ke pelosok negeri.</p>
+                        <div class="news-author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=facearea&facepad=2&w=100&h=100&q=80"
+                                alt="Sarah Ahmad" class="author-img">
+                            <span class="author-name">Sarah Ahmad</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="news-card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
+                        alt="Web Accessibility" class="news-card-img">
+                    <div class="news-card-content">
+                        <div class="news-meta">
+                            <span class="news-category">Teknologi</span>
+                            <span>10 Oktober 2023</span>
+                        </div>
+                        <h3 class="news-card-title"><a href="detail-berita-5.html">Memahami Web Accessibility: Mengapa
+                                Desain Inklusif adalah Keharusan</a></h3>
+                        <p class="news-card-excerpt">Membangun website yang dapat diakses oleh semua orang termasuk
+                            penyandang disabilitas adalah tanggung jawab utama setiap developer.</p>
+                        <div class="news-author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=facearea&facepad=2&w=100&h=100&q=80"
+                                alt="Reza Pradipta" class="author-img">
+                            <span class="author-name">Reza Pradipta</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card 3 (Dummy placeholder to show layout) -->
+                <article class="news-card">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80"
+                        alt="Cybersecurity" class="news-card-img">
+                    <div class="news-card-content">
+                        <div class="news-meta">
+                            <span class="news-category">Keamanan Siber</span>
+                            <span>08 Oktober 2023</span>
+                        </div>
+                        <h3 class="news-card-title"><a href="detail-berita-6.html">Ancaman Ransomware Meningkat,
+                                Bagaimana Perusahaan Harus Bersiap?</a></h3>
+                        <p class="news-card-excerpt">Laporan terbaru menunjukkan lonjakan tajam serangan ransomware
+                            terhadap infrastruktur krusial bisnis skala menengah.</p>
+                        <div class="news-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=facearea&facepad=2&w=100&h=100&q=80"
+                                alt="Andi Wijaya" class="author-img">
+                            <span class="author-name">Andi Wijaya</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter CTA -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Tetap Terhubung dengan Inovasi</h2>
+            <p>Dapatkan insight mingguan seputar dunia teknologi, startup, dan pengembangan web langsung di inbox Anda.
+            </p>
+            <form class="newsletter-form" action="#" method="POST"
+                onsubmit="event.preventDefault(); alert('Terima kasih telah berlangganan!');">
+                <input type="email" placeholder="Masukkan alamat email Anda" required aria-label="Email Address">
+                <button type="submit" class="btn btn-primary">Berlangganan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="index.html" class="footer-brand"><span class="brand-icon">VN</span> Vynz News.</a>
+                    <p class="footer-desc">Portal berita modern dan terpercaya yang menyajikan insight mendalam seputar
+                        teknologi, bisnis digital, dan tren masa depan.</p>
+                    <div class="footer-social" style="display:flex; gap:1rem; align-items:center;">
+                        <a href="https://github.com/kavinthoriq" aria-label="GitHub"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg></a>
+                        <a href="https://www.tiktok.com/@lemarivinz" aria-label="TikTok"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.525.02c1.31-.02 2.61-.01 3.91-.01.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 2.23-1.15 4.38-2.9 5.82-1.75 1.42-4.14 2.1-6.4 1.78-2.25-.32-4.31-1.5-5.55-3.32-1.23-1.81-1.66-4.15-1.11-6.28.53-2.12 1.96-3.95 3.94-4.88 1.97-.93 4.31-1.03 6.34-.23v4.21c-1.04-.54-2.31-.62-3.41-.16-1.11.45-1.92 1.45-2.17 2.6-.26 1.14-.01 2.37.7 3.29.7.92 1.89 1.35 3.03 1.11 1.14-.24 2.06-1.04 2.45-2.13.25-.7.31-1.47.31-2.22V.02z" />
+                            </svg></a>
+                        <a href="https://www.instagram.com/kvnthrq/" aria-label="Instagram"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Kategori Utama</h4>
+                    <div class="footer-links">
+                        <a href="kategori.html">Artificial Intelligence</a>
+                        <a href="kategori.html">Startup & Bisnis</a>
+                        <a href="kategori.html">Web Development</a>
+                        <a href="kategori.html">Edukasi Digital</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Perusahaan</h4>
+                    <div class="footer-links">
+                        <a href="tentang.html">Tentang Kami</a>
+                        <a href="kontak.html">Karir</a>
+                        <a href="kontak.html">Media Kit</a>
+                        <a href="kontak.html">Kontak Redaksi</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Legal</h4>
+                    <div class="footer-links">
+                        <a href="syarat-ketentuan.html">Syarat & Ketentuan</a>
+                        <a href="kebijakan-privasi.html">Kebijakan Privasi</a>
+                        <a href="pedoman-media-siber.html">Pedoman Media Siber</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Vynz News. Hak Cipta Dilindungi.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

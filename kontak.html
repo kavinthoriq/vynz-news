@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Hubungi tim redaksi Vynz News untuk kerja sama, liputan, atau kirimkan opini Anda.">
+    <title>Kontak Kami | Vynz News</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container"><a href="index.html" class="nav-brand"><span class="brand-icon">VN</span> Vynz News.</a>
+            <div class="nav-links"><a href="index.html">Beranda</a><a href="kategori.html">Kategori</a><a
+                    href="galeri.html">Galeri</a><a href="tentang.html">Tentang Kami</a><a href="kontak.html"
+                    class="active">Kontak</a></div>
+            <div class="nav-controls"><button id="theme-toggle" class="theme-toggle"
+                    aria-label="Toggle Dark Mode"></button><button class="mobile-menu-btn" aria-label="Menu"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg></button></div>
+        </div>
+    </nav>
+    <main class="container section">
+        <header style="text-align:center; margin-bottom: 4rem;">
+            <h1 style="font-size: 2.5rem; margin-bottom:1rem;">Mari Terhubung</h1>
+            <p style="color: var(--text-secondary);">Punya cerita startup yang ingin dibagikan? Atau tertarik bekerja
+                sama? Kami siap mendengarkan.</p>
+        </header>
+
+        <div class="contact-grid">
+            <!-- Contact Form -->
+            <div>
+                <h2 style="margin-bottom: 1.5rem;">Kirim Pesan</h2>
+                <form action="#" method="POST"
+                    onsubmit="event.preventDefault(); alert('Pesan Anda berhasil dikirim! Tim kami akan segera merespon.');">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Nama Lengkap</label>
+                        <input type="text" id="name" class="form-control" required placeholder="Cth: Kavin Thoriq">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Alamat Email</label>
+                        <input type="email" id="email" class="form-control" required
+                            placeholder="Cth: kavin@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subjek</label>
+                        <select id="subject" class="form-control" required>
+                            <option value="">Pilih Subjek...</option>
+                            <option value="redaksi">Kirim Opini / Tips Berita</option>
+                            <option value="bisnis">Kerja Sama / Media Partner</option>
+                            <option value="umum">Pertanyaan Umum</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Pesan</label>
+                        <textarea id="message" class="form-control" required
+                            placeholder="Tuliskan detail pesan Anda di sini..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim Pesan Sekarang</button>
+                </form>
+            </div>
+
+            <!-- Contact Info -->
+            <div>
+                <div class="contact-info-card">
+                    <h3>Kantor Pusat Redaksi</h3>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg> Kampus : Jl. Raya Citayam</p>
+                    <p style="margin-left: 1.5rem; margin-bottom: 1rem;">Gg. H. Dul No.100<br>Kel. Bojong Pondok
+                        Terong<br>Kec. Cipayung Kota Depok</p>
+
+                    <h3 style="margin-top: 2rem;">Hubungi Kami</h3>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg> kavin.thoriq23@smk.belajar.id</p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg> +62 858-8863-5816</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="margin-top:0; padding-top:2rem;">&copy; 2026 Vynz News. Hak Cipta Dilindungi.</div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

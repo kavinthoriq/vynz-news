@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Telusuri berbagai kategori berita di Vynz News.">
+    <title>Kategori Berita | Vynz News</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container"><a href="index.html" class="nav-brand"><span class="brand-icon">VN</span> Vynz News.</a>
+            <div class="nav-links"><a href="index.html">Beranda</a><a href="kategori.html" class="active">Kategori</a><a
+                    href="galeri.html">Galeri</a><a href="tentang.html">Tentang Kami</a><a href="kontak.html">Kontak</a>
+            </div>
+            <div class="nav-controls"><button id="theme-toggle" class="theme-toggle"
+                    aria-label="Toggle Dark Mode"></button><button class="mobile-menu-btn" aria-label="Menu"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg></button></div>
+        </div>
+    </nav>
+    <main class="container section">
+        <header style="text-align:center; margin-bottom: 3rem;">
+            <h1 style="font-size: 2.5rem; margin-bottom:1rem;">Semua Topik</h1>
+            <p style="color: var(--text-secondary);">Jelajahi artikel berdasarkan kategori yang Anda minati.</p>
+        </header>
+
+        <!-- Category Tabs -->
+        <div class="category-tabs">
+            <button class="tab-btn active" data-target="all">Semua</button>
+            <button class="tab-btn" data-target="web-dev">Web Development</button>
+            <button class="tab-btn" data-target="ai">Artificial Intelligence</button>
+            <button class="tab-btn" data-target="startup">Startup & Bisnis</button>
+            <button class="tab-btn" data-target="edukasi">Edukasi</button>
+            <button class="tab-btn" data-target="teknologi">Teknologi</button>
+            <button class="tab-btn" data-target="cyber">Keamanan Siber</button>
+        </div>
+
+        <div class="tab-content active" id="web-dev">
+            <h2 class="section-title">Web Development</h2>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-bottom:4rem;">
+                <article class="news-card horizontal">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80"
+                        alt="Web Dev" class="news-card-img">
+                    <div class="news-card-content">
+                        <span class="news-category">Web Development</span>
+                        <h3 class="news-card-title"><a href="detail-berita-3.html">Framework JavaScript Terbaik untuk
+                                Skalabilitas Enterprise di 2026</a></h3>
+                        <p class="news-card-excerpt">Memilih teknologi yang tepat untuk proyek skala enterprise bukanlah
+                            tugas yang mudah.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="tab-content active" id="ai">
+            <h2 class="section-title">Artificial Intelligence</h2>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-bottom:4rem;">
+                <article class="news-card horizontal">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=400&q=80"
+                        alt="AI" class="news-card-img">
+                    <div class="news-card-content">
+                        <span class="news-category">Artificial Intelligence</span>
+                        <h3 class="news-card-title"><a href="detail-berita-1.html">Masa Depan AI dalam Pengembangan Web:
+                                Otomatisasi dan Kreativitas</a></h3>
+                        <p class="news-card-excerpt">AI telah menjadi komponen integral yang mengubah cara developer
+                            mendesain dan membangun web.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="tab-content active" id="startup">
+            <h2 class="section-title">Startup & Bisnis</h2>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-bottom:4rem;">
+                <article class="news-card horizontal">
+                    <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=400&q=80"
+                        alt="Startup" class="news-card-img">
+                    <div class="news-card-content">
+                        <span class="news-category">Startup</span>
+                        <h3 class="news-card-title"><a href="detail-berita-2.html">Strategi Startup Melewati Tech Winter di
+                                Asia Tenggara</a></h3>
+                        <p class="news-card-excerpt">Bagaimana startup beradaptasi untuk bertahan di tengah kelesuan
+                            pendanaan global.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="tab-content active" id="edukasi">
+            <h2 class="section-title">Edukasi</h2>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-bottom:4rem;">
+                <article class="news-card horizontal">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=400&q=80"
+                        alt="Edukasi Digital" class="news-card-img">
+                    <div class="news-card-content">
+                        <span class="news-category">Edukasi</span>
+                        <h3 class="news-card-title"><a href="detail-berita-4.html">Transformasi Digital di Sektor
+                                Pendidikan: Membangun Kelas Tanpa Batas</a></h3>
+                        <p class="news-card-excerpt">Adaptasi teknologi digital di ruang kelas kini menjadi standar baru
+                            yang membuka akses pendidikan berkualitas.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="tab-content active" id="teknologi">
+            <h2 class="section-title">Teknologi</h2>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-bottom:4rem;">
+                <article class="news-card horizontal">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=400&q=80"
+                        alt="Web Accessibility" class="news-card-img">
+                    <div class="news-card-content">
+                        <span class="news-category">Teknologi</span>
+                        <h3 class="news-card-title"><a href="detail-berita-5.html">Memahami Web Accessibility: Mengapa
+                                Desain Inklusif adalah Keharusan</a></h3>
+                        <p class="news-card-excerpt">Membangun website yang dapat diakses oleh semua orang termasuk
+                            penyandang disabilitas adalah tanggung jawab utama setiap developer.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="tab-content active" id="cyber">
+            <h2 class="section-title">Keamanan Siber</h2>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-bottom:4rem;">
+                <article class="news-card horizontal">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80"
+                        alt="Keamanan Siber" class="news-card-img">
+                    <div class="news-card-content">
+                        <span class="news-category">Keamanan Siber</span>
+                        <h3 class="news-card-title"><a href="detail-berita-6.html">Ancaman Ransomware Meningkat, Bagaimana
+                                Perusahaan Harus Bersiap?</a></h3>
+                        <p class="news-card-excerpt">Laporan terbaru menunjukkan lonjakan tajam serangan ransomware terhadap
+                            infrastruktur krusial bisnis skala menengah.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="margin-top:0; padding-top:2rem;">&copy; 2026 Vynz News. Hak Cipta Dilindungi.</div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
