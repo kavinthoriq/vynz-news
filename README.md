@@ -128,8 +128,8 @@ Tidak perlu instalasi apa pun, cukup:
 ## 👤 Author
 
 **Nama Kamu**
-- GitHub: [@username](https://github.com/username)
-- Email: email@example.com
+- GitHub: [@kavinthoriq](https://github.com/kavinthoriq)
+- Email: xyzvinnz@gmail.com
 
 ---
 
