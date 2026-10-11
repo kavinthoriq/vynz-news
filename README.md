@@ -2,7 +2,7 @@
 
 Website portal berita teknologi berbasis **HTML, CSS, dan JavaScript** murni (tanpa framework). Vynz News menyajikan artikel seputar teknologi, kecerdasan buatan, startup, pengembangan web, edukasi digital, dan keamanan siber, lengkap dengan mode gelap dan tampilan responsif.
 
-> 🔗 **Demo:** _(isi dengan link GitHub Pages / hosting kamu)_
+> 🔗 **Demo:** _(https://kavinthoriq.github.io/vynz-news/)_
 
 <!-- Tambahkan screenshot di sini
 ![Preview Vynz News](assets/preview.png)
